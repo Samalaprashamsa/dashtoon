@@ -1,0 +1,116 @@
+/* ComicForm.css */
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 5%;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  color: #007bff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.generated-comic {
+  margin-top: 20px;
+}
+
+/* Decrease opacity of the image */
+.container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('comic.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1; 
+}
+
+/* ComicForm.css */
+
+/* Style the form container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background color */
+}
+
+/* Style each panel row */
+.panel-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style the input labels */
+.label {
+  margin-right: 10px;
+}
+
+/* Style the input fields */
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+/* Style the button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Style the loading message */
+.loading {
+  color: #007bff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Style the error message */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Style the generated comic images */
+.generated-comic {
+  margin-top: 20px;
+  background-color: #f9f9f9; /* Light gray background color */
+  padding: 10px;
+  border: 1px solid #ddd; /* Add a border for separation */
+}

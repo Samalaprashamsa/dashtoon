@@ -1,0 +1,15 @@
+/* comicApi.css */
+
+/* Style the loading message */
+.loading {
+    color: #007bff;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Style the error message */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  

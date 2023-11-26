@@ -1,0 +1,15 @@
+/* ComicDisplay.css */
+
+.display-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.generated-comic {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

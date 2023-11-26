@@ -1,0 +1,22 @@
+/* App.css */
+
+/* Style the overall app container */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style the app header */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the main content area */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
